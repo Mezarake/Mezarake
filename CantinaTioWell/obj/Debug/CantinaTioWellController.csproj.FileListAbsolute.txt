@@ -1,0 +1,6 @@
+C:\Exercicio\CantinaTioWell\CantinaTioWellController\bin\Debug\CantinaTioWellController.dll
+C:\Exercicio\CantinaTioWell\CantinaTioWellController\bin\Debug\CantinaTioWellController.pdb
+C:\Exercicio\CantinaTioWell\CantinaTioWellController\obj\Debug\CantinaTioWellController.csproj.CoreCompileInputs.cache
+C:\Exercicio\CantinaTioWell\CantinaTioWellController\obj\Debug\CantinaTioWellController.dll
+C:\Exercicio\CantinaTioWell\CantinaTioWellController\obj\Debug\CantinaTioWellController.pdb
+C:\Exercicio\CantinaTioWell\CantinaTioWellController\obj\Debug\CantinaTioWellController.csprojAssemblyReference.cache
