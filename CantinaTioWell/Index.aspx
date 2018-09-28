@@ -137,13 +137,13 @@
                         </div>
 
 
-                        <a class="mouse-scroll" href="#about"> 
+                        <%--<a class="mouse-scroll" href="#about"> 
                             <span class="mouse">
                                 <span class="mouse-movement"></span>
                             </span>
                             <span class="mouse-message fadeIn">Explore</span> <br />
                             <!--<i class="fa fa-angle-down m-top-10 fadeIn mouse-message"></i>--> 
-                        </a>
+                        </a>--%>
 
                     </div><!--End off row-->
                 </div><!--End off container -->
@@ -152,7 +152,7 @@
 
 
             <!--About Section-->
-            <section id="about" class="about bg-yellow roomy-80">
+            <%--<section id="about" class="about bg-yellow roomy-80">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
@@ -588,7 +588,7 @@
             </section><!-- End off test section -->
 
 
-
+--%>
             <footer id="contact" class="footer action-lage bg-black p-top-80">
                 <!--<div class="action-lage"></div>-->
                 <div class="container">
