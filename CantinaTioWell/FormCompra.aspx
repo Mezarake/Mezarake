@@ -161,7 +161,6 @@
     <script src="js/vendor/bootstrap.min.js"></script>
 
 
-
     <!--<script src="assets/js/jquery.easypiechart.min.js"></script>-->
     <script src="js/jquery.magnific-popup.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>

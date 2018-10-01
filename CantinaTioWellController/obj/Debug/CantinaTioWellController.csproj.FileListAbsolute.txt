@@ -4,3 +4,9 @@ C:\Exercicio\CantinaTioWell\CantinaTioWellController\obj\Debug\CantinaTioWellCon
 C:\Exercicio\CantinaTioWell\CantinaTioWellController\obj\Debug\CantinaTioWellController.dll
 C:\Exercicio\CantinaTioWell\CantinaTioWellController\obj\Debug\CantinaTioWellController.pdb
 C:\Exercicio\CantinaTioWell\CantinaTioWellController\obj\Debug\CantinaTioWellController.csprojAssemblyReference.cache
+C:\Users\NET-VM\source\repos\Mezarake\CantinaTioWellController\bin\Debug\CantinaTioWellController.dll
+C:\Users\NET-VM\source\repos\Mezarake\CantinaTioWellController\bin\Debug\CantinaTioWellController.pdb
+C:\Users\NET-VM\source\repos\Mezarake\CantinaTioWellController\obj\Debug\CantinaTioWellController.csprojAssemblyReference.cache
+C:\Users\NET-VM\source\repos\Mezarake\CantinaTioWellController\obj\Debug\CantinaTioWellController.csproj.CoreCompileInputs.cache
+C:\Users\NET-VM\source\repos\Mezarake\CantinaTioWellController\obj\Debug\CantinaTioWellController.dll
+C:\Users\NET-VM\source\repos\Mezarake\CantinaTioWellController\obj\Debug\CantinaTioWellController.pdb
