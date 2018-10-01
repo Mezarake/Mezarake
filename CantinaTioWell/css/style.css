@@ -893,13 +893,38 @@ nav.navbar.bootsnav.no-background.white ul.nav > li.active > a {
 Home Section style
 ==================*/
 
-.home{
+.home {
     background: url(../images/tortaimg.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 300px;
+    padding-top: 150px;
     padding-bottom: 320px;
-    width:100%;
+    width: 100%;
+}
+
+.pagamento {
+    background: url(../images/pagamentoimg.jpg) no-repeat top center;
+    background-size: cover;
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 320px;
+    width: 100%;
+}
+.produto {
+    background: url(../images/produtoimg.jpg) no-repeat top center;
+    background-size: cover;
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 320px;
+    width: 100%;
+}
+.cliente {
+    background: url(../images/clienteimg.jpg) no-repeat top center;
+    background-size: cover;
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 320px;
+    width: 100%;
 }
 .home_text h1{
     font-size:100px;

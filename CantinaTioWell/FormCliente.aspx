@@ -6,85 +6,167 @@
 <head runat="server">
 
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <%--    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Cantina Tio Well</title>
     <meta name="description" content="" />
-    <meta name="author" content="" />--%>
-    <title>Cadastro de Cliente</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
-    <%--        <!-- Bootstrap core CSS-->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- Custom fonts for this template-->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
-    <!-- Page level plugin CSS-->
-    <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet" />
-    <!-- Custom styles for this template-->
-    <link href="css/sb-admin.css" rel="stylesheet" />--%>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="favicon.ico" />
+
+    <!--Google Font link-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+
+
+
+
+
+    <link href="css/slick.css" rel="stylesheet" />
+    <link href="css/slick-theme.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/iconfont.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+    <link href="css/bootsnav.css" rel="stylesheet" />
+
+
+
+    <!--For Plugins external css-->
+    <link href="css/plugins.css" rel="stylesheet" />
+    <!--Theme custom css -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!--Theme Responsive css-->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
-<body>
-    <%--<nav class="navbar navbar-expand navbar-dark bg-dark static-top">
-      
-            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-fw fa-folder"></i>
 
-            </a>
-            <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-                <h6 class="dropdown-header">Login Screens:</h6>
-                <a class="dropdown-item" href="login.html">Login</a>
-                <a class="dropdown-item" href="register.html">Register</a>
-                <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
-                <div class="dropdown-divider"></div>
-                <h6 class="dropdown-header">Other Pages:</h6>
-                <a class="dropdown-item" href="404.html">404 Page</a>
-                <a class="dropdown-item" href="blank.html">Blank Page</a>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="100">
+
+
+    <!-- Preloader -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+                <div class="object" id="object_four"></div>
             </div>
-        <a class="navbar-brand mr-1" href="index.html">Start Bootstrap</a>
-        <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
-            <i class="fas fa-bars"></i>
-        </button>
-        </nav>--%>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="ConsultaProdutos">Inicio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="FormCliente.aspx">Cadastro Clientes <span class="sr-only">(Página atual)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="FormProduto.aspx">Cadastro Produtos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="FormCompra.aspx">Registrar Compras</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="FormPagamento.aspx">Registrar Pagamentos</a>
-                </li>
-            </ul>
         </div>
-    </nav>
+    </div>
+    <!--End off Preloader -->
 
-    <form id="form1" runat="server">
-        <div class="container">
-            <div class="px-2">
-                <p>
-                    Nome do CLiente:
+
+    <div class="culmn">
+        <!--Home page style-->
+
+
+        <nav class="navbar navbar-default bootsnav navbar-fixed no-background white">
+
+            <!-- Start Top Search -->
+            <div class="top-search">
+                <div class="container">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Top Search -->
+
+
+            <div class="container">
+                <div class="attr-nav">
+                    <ul>
+                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="#brand">
+                        <img src="assets/images/logo.png" class="logo" alt="">
+                        <!--<img src="assets/images/footer-logo.png" class="logo logo-scrolled" alt="">-->
+                    </a>
+
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- navbar menu -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="Index.aspx">Inicio</a></li>
+                        <li><a href="FormCliente.aspx">Cadastro de Clientes</a></li>
+                        <li><a href="FormProduto.aspx">Cadastro de Novos Produtos</a></li>
+                        <li><a href="FormCompra.aspx">Registrar Compras</a></li>
+                        <li><a href="FormPagamento.aspx">Registro de Pagamentos</a></li>
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+
+        </nav>
+
+        <!--Home Sections-->
+        <section id="cliente" class="cliente bg-black fix">
+  
+            <form id="form1" runat="server">
+                <div class="container">
+                        <p class="text-white">
+                            Nome do Cliente:
                 <asp:TextBox runat="server" ID="txtNomeCliente" />
-                </p>
-                <p>
-                    CPF:
+                        </p>
+                        <p class="text-white">
+                            CPF:
                 <asp:TextBox runat="server" ID="txtCpf" />
-                </p>
-                <asp:Button ID="btnCadastroCliente" Text="Cadastrar" runat="server" OnClick="btnCadastroCliente_Click" />
-            </div>
-        </div>
-    </form>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+                        </p>
+                        <asp:Button ID="btnCadastroCliente" Text="Cadastrar" class="text-black" runat="server" OnClick="btnCadastroCliente_Click" />
+                    </div>
+            </form>
+        </section>
+
+        
+
+
+
+    </div>
+
+    <!-- JS includes -->
+
+
+
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+
+
+    <!--<script src="assets/js/jquery.easypiechart.min.js"></script>-->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!--<script src="assets/js/slick.js"></script>-->
+    <script src="js/slick.min.js"></script>
+    <script src="js/js.isotope.js"></script>
+
+    <script src="js/jquery.collapse.js"></script>
+
+    <script src="js/bootsnav.js"></script>
+
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+
+    <script src="js/main.js"></script>
+
+
+
+
 </body>
 </html>
